@@ -5,7 +5,7 @@ const a = prompt("Please enter first player's name");
 const b = prompt("Please enter second player's name");
 
 // Snake and Ladder game component
-const SnakeAndLadder = () => {
+const App = () => {
   // Initialize the game state
   const [transform, setTransform] = useState('rotateX(0deg) rotateY(0deg)');
   const [player1Position, setPlayer1Position] = useState(0);
@@ -161,4 +161,4 @@ const SnakeAndLadder = () => {
   );
 };
 
-export default SnakeAndLadder;
+export default App;
